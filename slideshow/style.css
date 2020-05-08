@@ -1,0 +1,153 @@
+HTML {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+BODY {
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(#ffdfdf, #808084);
+    flex-wrap: wrap;
+}
+.window {
+    display:flex;
+    align-items: row;
+    justify-content: space-between;
+    background-color: #ffe6d0;
+    border: ridge;
+    border-radius: 0px 20px;
+    box-shadow: 10px 0px 20px   #0000005c;
+    max-width: 900px;
+    max-height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+#left {
+    height:30px;
+    transform: rotate(0.5turn);
+    margin-left: 10px;
+}
+#left:hover {
+    transform: scale(1.4) rotate(0.5turn);
+}
+#right {
+    height: 30px;
+    margin-left: 10px;
+}
+#right:hover {
+    transform: scale(1.4);
+}
+img {
+    display: block;
+    position: relative;
+    max-width:900px;
+    max-height: 500px;
+}
+.lside, .rside {
+    display: flex;
+    width: 50px;
+    margin: auto;
+}
+#footer {
+    display:flex;
+    margin: auto;
+    padding:30px;
+    max-width: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+#0 {
+    border: #808084 ridge;
+}
+.pictures {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 20px 5px;
+    border: ridge;
+    border-radius: 0px 20px;
+    box-shadow: 10px 5px 30px  #000000c2;
+}
+.pictures:hover {
+    transform: scale(1.15);
+}
+.thumbnail {
+display: none;
+width: 110px;
+padding: 5px;
+text-align: center;
+background: #f1c2c2;
+color: #808084;
+border-radius: 0px 10px 0px;
+position: relative;
+top: -165px;
+}
+.picturesBox:hover .thumbnail {
+    display: block;
+    }
+#textPlace {
+    position: absolute;
+    background-color: #808084;;
+    color: #fff5f5;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-origin: border-box;
+    opacity: 0.8;
+    overflow: hidden;
+    transition: 0.9s ease;
+}
+main {
+    position: relative;
+    width: 100%;
+}
+main:hover #textPlace {
+height:15%;
+}
+h1 , p {
+    position: absolute;
+-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: auto;
+  top: 50%;
+  left:8%;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 290;
+    margin-top: -20px;
+    opacity: 1.5; 
+    width: 700px;
+}
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: auto;
+    opacity: 1.5;
+    width: 700px;
+    top: 55px;
+    left: 55%;
+}
+#photo {
+    width: 100%;
+    height: 500px;
+}
+header {
+    font-family: 'Satisfy', cursive;
+    font-size:45px;
+    color:#fff2e7;
+    orientation: landscape;
+    text-align: center;
+    margin: 50px 0px 10px;
+}
+
